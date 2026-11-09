@@ -1,0 +1,25 @@
+# Node & Capacitor
+node_modules/
+.npm/
+
+# Android Gradle builds & caches
+.gradle/
+android/.gradle/
+android/app/build/
+android/build/
+android/capacitor-cordova-android-plugins/build/
+
+# Android Studio & IDE
+.idea/
+*.iml
+local.properties
+.DS_Store
+Thumbs.db
+
+# Cloud VM Proxy Certificates & Keystores (environment-specific)
+gateway_ca.crt
+full_cacerts.pem
+keystore.jks
+
+# Logs
+*.log
